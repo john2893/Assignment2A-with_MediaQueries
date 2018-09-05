@@ -29,8 +29,6 @@ header #nameTag {
 header #nameTag a {
     color:white;
     padding:4px 27px;
-   
-    
 }
 
 
@@ -72,8 +70,6 @@ section {
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     color: #777777;
     padding:6px; 
-    
-    
 }
 .bio h2 {
     font-family: 'Georgia', Times, Times New Roman, serif;
@@ -128,15 +124,28 @@ section {
     .divider {
         padding:12px; 
     }
-    section {
+    .bio {
         background-color: #ffffff;
         width: 960px; 
         /* height:calc(100vh - 80px); */
-        height:100%;
+        height:790px;
         padding-top:80px;   
-        margin-top: 100px;    
+        margin-top: 100px;  
+        padding: 20px 8px 12px 15px;  
+        border:1px solid black;
 
     }
+    .portfolio {
+        background-color: #ffffff;
+        width: 560px; 
+        /* height:calc(100vh - 80px); */
+        height:490px;
+        padding-top:80px;   
+        margin-top: 100px;
+        padding: 20px 8px 12px 15px;      
+        border:1px solid black;
+    }
+
     .bio p {
         font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
         color: #777777;
@@ -150,6 +159,14 @@ section {
         padding: 3px 0 3px 8px;
         font-weight: bold;
     }
+    .portfolio h2 {
+        font-family: 'Georgia', Times, Times New Roman, serif;
+        color:#4aaaa5;
+        font-size: 30px;
+        padding: 3px 0 3px 8px;
+        font-weight: bold;
+    }
+
     .bio #catImage {
         float:left;
         height: 180px;
@@ -193,6 +210,7 @@ footer p {
     
     display:inline-block;
     position: relative;
+    
   
    
 }
@@ -200,6 +218,7 @@ img {
     height:130px;
     width:150px;
     margin:4px;
+    
 }
 
 
@@ -218,22 +237,7 @@ img {
     padding-top: 8px;
     line-height: -12px;
 }
-#portfolionameTag {
-    background-color: #4aaaa5;
-    width:13%;
-    height:86px;
-    margin-left:620px;
-    float:left;
-}
-#portfolionav {
-    position: relative;
-    width:24%;
-    height: 40px;
-    float:right;
-    margin-top:30px;
-    margin-right: 591px;
 
-}
 /* ################################################### */
 /* Contact */
 
@@ -254,25 +258,5 @@ input[type=submit] {
     border:none;
     border-radius:3px;
 
-body {
-    display:block;
-    margin:8px;
-}
-
-@media only screen and (min-width: 1000px) {
-    header {
-        position: none;
-    }
-    header #nameTag {
-        display: block;
-        background-color: #4aaaa5;
-        width:250px;
-        height:47px;
-        float:left;
-        margin-left:550px;
-        text-align: left;
-  
-    }
 
 
-}
