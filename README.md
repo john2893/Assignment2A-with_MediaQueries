@@ -1,11 +1,10 @@
 # Assignment2A-with_MediaQueries
- Assignment-2a - Basic Portfolio with Media Queries.
+ This is Assignment-2a - Add media queries to the previous Basic Portfolio assignment to make it a responsive website to 
+ change the layout based on the screen of the devices.
 
+I have added a break point in my assignment from desktop to a phone and vice versa.
 
-This is assignment-2a.
-Basic Portfolio with Media Queries.
-
-The website fits well with Phone and Desktop.
+This is a responsive website fits well with Phone and Desktop.
 
 Desktop - Screenshots:
 
