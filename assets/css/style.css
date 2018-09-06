@@ -15,6 +15,7 @@ header{
     height:80px;
 }
 
+
 header #nameTag {
     font-family: 'Georgia', Times, Times New Roman, serif;
     line-height: 56px;
@@ -33,19 +34,17 @@ header #nameTag a {
 
 
 header nav ul {
+    
     display: block;
     width:100%;
     margin:0 auto;
-    width:fit-content;
-    
-    
+    width:fit-content;   
 }
 header nav ul li {
     display:inline-block;
     float:left;
     list-style: none;
     padding:0 16px;
-
 }
 header nav ul li a {
     font-family: 'Georgia', Times, Times New Roman, serif;
@@ -53,6 +52,7 @@ header nav ul li a {
     color:#777777;
     font-size: 16px;
 }
+
 .divider {
     padding:12px; 
 }
@@ -76,15 +76,32 @@ section {
     color:#4aaaa5;
     font-size: 18px;
     padding: 40px 0 3px 8px;
-    font-weight: bold;
-    
+    font-weight: bold;   
 }
+
+
 .bio #catImage {
     float:left;
     height: 80px;
     width: 80px;
     margin:8px;
 }
+.contact h2 {
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    color:#4aaaa5;
+    font-size: 18px;
+    padding: 40px 0 3px 8px;
+    font-weight: bold;   
+}
+.portfolio h2 {
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    color:#4aaaa5;
+    font-size: 18px;
+    padding: 40px 0 3px 8px;
+    font-weight: bold;   
+}
+
+
 @media only screen and (min-width: 1000px) {
     header {
         position: none;
@@ -99,6 +116,12 @@ section {
         margin-left:150px;
         text-align: left;
     }
+    /* nav {
+        position: fixed;
+        background-color:inherit;
+        bottom:clear;
+        width: 100%;
+    } */
     header nav ul {
        
         width:100%;
