@@ -7,4 +7,9 @@ Basic Portfolio with Media Queries.
 
 The website fits well with Phone and Desktop.
 
+Desktop - Screenshots:
+
+![image](https://user-images.githubusercontent.com/26657683/45128411-e3f5cb00-b14b-11e8-8939-b0ae60aefe31.png)
+
+
 
